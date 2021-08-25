@@ -1,0 +1,53 @@
+.mainTitleAnchor{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: larger;
+    color: black;
+}
+
+.mainNav{
+    height: 10vh;
+}
+
+.loaderScreen{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh
+}
+
+.movieInfo{
+    position: absolute;
+    z-index: 99
+}
+
+.movieList{
+    background-color: #fdf0f0;
+    width: 100%;
+}
+
+.movieListSpan{
+    display: block;
+    color: #26a69a;
+}
+
+.movieTitle{
+    font-weight: bold;
+    font-size: medium;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 0.5em;
+    white-space: nowrap
+}
+
+.searchDropdown{
+    display: inherit;
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #26a69a;
+    border-bottom-style: solid;
+    background-color: black;
+    color: white;
+    outline: none;
+}
